@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <p  id="pa1">bienvenido </p>
+    <p  id="pa2">tu sueld es de € </p>
+  </head>
+  <body>
+    <script type="text/javascript">
+      var  sueldo = prompt('¿Cual es tu sueldo?');
+      var nombre = prompt('¿Cual es tu nombre?');
+      sueldo = parseInt(sueldo);
+      document.getElementById ("pa1").innerHTML = "bienvenido" + nombre;
+      document.getElementById ("pa2").innerHTML = "tu sueldo es de" + sueldo+ "€";
+    </script>
+  </body>
+</html>
