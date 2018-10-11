@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <script>
+    var numero = prompt('dame un numero');
+    var numero1 = prompt('dame otro numero');
+    numero = parseInt(numero);
+    numero1 = parseInt(numero1);
+    var pregunta = prompt('quieres sumar, restar, multiplicar o dividir?')
+
+    if (pregunta=="sumar"){
+      var suma = (numero+numero1);
+      alert (suma);
+    } else if (pregunta=="restar") {
+      var restar = (numero - numero1);
+      alert (restar);
+    } else if (pregunta=="multiplicacion" || pregunta=="multiplicación") {
+      var multiplicacion =  (numero * numero1);
+      alert (multiplicacion);
+    }  else if (pregunta=="dividir") {
+      var dividir =  (numero/numero1);
+      alert (dividir);
+    }
+    </script>
+  </body>
+</html>
